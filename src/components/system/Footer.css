@@ -1,0 +1,37 @@
+.css-signature {
+  background:#f8f9fa;
+  box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.css-signature small {
+  color : #181819
+}
+
+.fa-icones:hover {
+  color: #ffc107;
+  transition: 0.5s ease;
+}
+
+.fa-icones-linkedin:hover {
+  color: #0270ad;
+  transition: 0.5s ease;
+}
+
+.fa-icones-facebook:hover {
+  color: #4867aa;
+  transition: 0.5s ease;
+}
+
+.fa-icones-twitter:hover {
+  color: #1da1f2;
+  transition: 0.5s ease;
+}
+
+.fa-icones,
+.fa-icones-linkedin,
+.fa-icones-facebook, 
+.fa-icones-twitter
+{
+  color: #181819;
+}

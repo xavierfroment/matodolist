@@ -1,38 +1,88 @@
+body {
+  font-family: "Roboto";
+}
+
 .App {
   text-align: center;
+  min-height:90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-item {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submit-btn,
+.completed-btn,
+.not-completed-btn,
+.edit-btn,
+.delete-btn {
+  height: 35px;
+  width: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.completed,
+.not-completed,
+.input-form {
+  height: 30px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-form {
+  width: 75%;
+}
+
+.input-list {
+  width: 55%;
+}
+
+.group-list {
+  margin:auto
+}
+
+.completed,
+.not-completed {
+  border: none;
+}
+
+.completed {
+  background-color: #93f0a9;
+  text-decoration: line-through;
+}
+
+.not-completed {
+  background-color: #8ee9f7;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff
+}
+
+.not-completed-btn {
+  background-color: #17a2b8;
+  color: #fff
+}
+
+.completed-btn {
+  background-color: #28a745;
+  color: #fff
 }
